@@ -1,2 +1,10 @@
 # Primeri.CSharp.Terminal
-purvi primeri C#
+**primeri ot purvite moduli na kurs C#**
+
+
+tuk shte publikuvame primeri za izpolzvaneto na:
+* promenlivi
+* uslovni operatori
+* cilki
+* klasove
+* i tn.
