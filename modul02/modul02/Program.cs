@@ -13,7 +13,7 @@ namespace modul02
 
 
 			//subirane na chisla
-			a = 5; b = 32; 
+			a = 3; b = 7; 
 			sum = a + b;
 
 		
@@ -26,6 +26,26 @@ namespace modul02
 			Console.Write ("=");
 			Console.WriteLine (sum);
 
+			// dopulnitelni operatori
+
+			Console.WriteLine ("\n izpolzvane na +=");
+			a += b; 
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\n izpolzvane na -=");
+			a -= b; 
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\n izpolzvane na *=");
+			a *= b; 
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\n izpolzvane na ++");
+			a ++; 
+			Console.WriteLine (a);
+
+			Console.WriteLine ("standartno delene " + (7/3).ToString ()); //otgovor 2 7/3 = 2.3333333
+			Console.WriteLine ("ostatuk delene " + (7%3).ToString ()); // orgovor 1 1/3 = 0.3333 
 
 		}
 	}
